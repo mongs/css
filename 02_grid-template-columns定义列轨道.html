@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    .wrapper {
+      display: grid;
+      width: 700px;
+      grid-template-columns: 200px 200px 200px;
+      border: 2px solid #040f80;
+    }
+    .item {
+      padding: 2em;
+      background: #ff550055;
+      border: 1px solid #00ff0055;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="item">item 1</div>
+    <div class="item">item 2</div>
+    <div class="item">item 3</div>
+    <div class="item">item 4</div>
+    <div class="item">item 5</div>
+  </div>
+  <!--
+    1. 网格容器
+    display: grid 或者  display:inline-grid
+    创建网格, 定义网格容器
+
+    2. 网格项
+    item 就成了 网格项
+
+    3. 网格轨道
+    一个网格轨道就是网格中任意两条线之间的空间
+    grid-template-columns 定义网格中的列
+    grid-template-rows 定义网格中的行
+
+  -->
+</body>
+</html>
